@@ -1,0 +1,30 @@
+# Ignorar todos los archivos generados y temporales
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Ignorar cachés y archivos temporales de Minecraft
+overrides/config/**/cache/
+overrides/config/**/backup/
+
+# Ignorar carpetas específicas que no necesitan seguimiento
+overrides/config/**/tacz/backup/
+overrides/config/**/tacz/custom/tacz_default_gun/tacz/ammo/display/
+overrides/config/**/tacz/custom/tacz_default_gun/tacz/ammo/index/
+overrides/config/**/tacz/custom/tacz_default_gun/tacz/textures/
+overrides/config/**/yes_steve_model/cache/
+
+# Ignorar configuraciones específicas que pueden regenerarse automáticamente
+overrides/config/**/relics/
+overrides/config/**/forge-1_20/
+overrides/config/**/custom/
+
+# Ignorar conectores temporales
+mods/.connector/temp/
+
+# Ignorar paquetes de recursos temporales
+resourcepacks/temp/
